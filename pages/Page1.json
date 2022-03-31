@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5010,
+          "bottomRow": 1320,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -25,10 +25,45 @@
           "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [
+            {
+              "widgetName": "Checkbox1",
+              "displayName": "Checkbox",
+              "iconSVG": "/static/media/icon.aaab032b.svg",
+              "topRow": 46,
+              "bottomRow": 50,
+              "parentRowSpace": 10,
+              "type": "CHECKBOX_WIDGET",
+              "alignWidget": "LEFT",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.796875,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onCheckChange"
+                }
+              ],
+              "leftColumn": 7,
+              "dynamicBindingPathList": [],
+              "onCheckChange": "{{JSObject1.myFun2()}}",
+              "isDisabled": false,
+              "key": "lg2hm6yv8a",
+              "isRequired": false,
+              "rightColumn": 27,
+              "widgetId": "kmhryxb73a",
+              "isVisible": true,
+              "label": "Label",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "defaultCheckedState": true
+            }
+          ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
+          "Checkbox1",
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
